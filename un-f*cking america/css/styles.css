@@ -1,0 +1,177 @@
+*{
+    box-sizing: border-box;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour&family=Spline+Sans+Mono:ital,wght@0,300..700;1,300..700&family=Workbench&display=swap');
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+    max-width: 100%;
+    padding: 30px;
+    min-height: 100vh;
+}
+
+h1,h2, h3 {
+    font-family: Helvetica, sans-serif;
+}
+nav a {
+    padding-right: 20px;
+    font-family: 'helvetica',;
+    color: red;
+}
+
+nav a:active {
+    color:#1900ff;
+}
+
+nav a:visited {
+    color: aliceblue;
+}
+
+.display   {
+    padding-bottom: 40px;
+}
+
+nav a:hover {
+    color:#1900ff;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+    padding-top: 40px;
+}
+
+a {
+font-size: 1.2em;
+}
+
+#table {
+    display: flex;
+    justify-content: space-between;
+}
+
+article {
+    padding-top: 60px;
+}
+
+#table a {
+color: aliceblue;
+background-color: red;
+font-family: 'helvetica', arial, sans-serif;
+font-weight: bold;
+padding: 20px;
+border-radius: 5px;
+}
+
+footer {
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+
+img {
+    max-width: 95%;
+    align-items: center;
+
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 140%;
+    max-width: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.i {
+    font-style: italic;
+    font-weight: 100;
+ }
+
+ h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+ }
+
+ .header-container {
+    display:flex;
+    justify-content: space-between;
+    line-height: 100%;
+    max-width: 100%;
+    padding: 0 !important;
+ }
+
+
+ .font-container {
+    display:flex;
+    justify-content: space-between;
+    line-height: 100%;
+    max-width: 100%;
+    padding-top: 30px;
+ }
+
+
+.color-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+ div.parent1{
+    background-color: #E03636;
+    color: white;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    
+}
+
+div.parent2{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    height: 100px;
+    width: 100px;
+}
+
+
+div.parent4{
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+}
+
+
+div.parent3{
+    background-color: #3647E0;
+    color: white;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+}
+
+.workbench {
+    font-family: 'workbench';
+    color: black;
+}
+
+.sixtyfour {
+    font-family: 'Sixtyfour';
+    color: black;
+
+}
+
+.spline {
+    font-family: 'Spline Sans Mono';
+    color: black;
+    font-weight: normal;
+}
